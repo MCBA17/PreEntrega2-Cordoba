@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+li{
+    list-style: none;
+}
+
+body.index{
+    background-image: url("../assets/media/gifinicio.gif");
+    background-size: cover;
+    overflow: auto;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: url(../assets/media/header.jpg);
+    padding: 1rem;
+    border-bottom: 2px solid white;
+  }
+  
+  header nav ul {
+    padding-top: 4%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  header nav ul li {
+    display: flex;
+    align-items: center;
+  }
+  
+  header nav ul a {
+    font-size: 0.9rem;
+    color: white;
+  }
+  
+  header nav ul img {
+    height: 2.2rem;
+  }
